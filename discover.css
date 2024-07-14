@@ -1,0 +1,15 @@
+/* discover.css */
+
+#discover {
+    text-align: center;
+}
+
+#search-bar {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#game-list {
+    margin-top: 20px;
+}

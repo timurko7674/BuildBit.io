@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Game - GameCrafter.io</title>
+    <link rel="stylesheet" href="css/game-editor.css">
+</head>
+<body>
+    <header>
+        <h1>GameCrafter.io</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game-editor.html">Create Game</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="auth.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="create">
+        <h2>Create Your Game</h2>
+        <form id="game-details">
+            <input type="text" id="game-name" placeholder="Game Name" required>
+            <label for="multiplayer">Multiplayer</label>
+            <input type="checkbox" id="multiplayer">
+            <button type="button" onclick="showGameEditor()">Start Creating</button>
+        </form>
+        <div id="game-editor" style="display:none;">
+            <div class="toolbar">
+                <button onclick="addSprite()">Add Sprite</button>
+                <button onclick="addBackground()">Add Background</button>
+                <button onclick="addCoins()">Add Coins</button>
+                <button onclick="setProperties()">Set Properties</button>
+                <button onclick="saveGame()">Save Game</button>
+                <button onclick="publishGame()">Publish Game</button>
+            </div>
+            <div id="game-canvas">
+                <!-- Game creation canvas will be here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/game-editor.js"></script>
+</body>
+</html>

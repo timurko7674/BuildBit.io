@@ -1,0 +1,24 @@
+/* game-editor.css */
+
+#game-editor {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.toolbar {
+    margin-bottom: 20px;
+}
+
+.toolbar button {
+    background-color: #2196F3;
+    margin-right: 10px;
+}
+
+#game-canvas {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 400px;
+    background-color: #eaeaea;
+}

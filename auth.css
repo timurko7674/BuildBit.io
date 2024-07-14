@@ -1,0 +1,18 @@
+/* auth.css */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input {
+    width: calc(100% - 22px);
+}
+
+form button {
+    width: calc(50% - 12px);
+}

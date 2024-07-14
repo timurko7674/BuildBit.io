@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Games - GameCrafter.io</title>
+    <link rel="stylesheet" href="css/discover.css">
+</head>
+<body>
+    <header>
+        <h1>GameCrafter.io</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game-editor.html">Create Game</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="auth.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="discover">
+        <h2>Discover Games</h2>
+        <input type="text" id="search-bar" placeholder="Search for games...">
+        <button onclick="searchGames()">Search</button>
+        <div id="game-list">
+            <!-- Games will be listed here -->
+        </div>
+    </section>
+
+    <script src="js/discover.js"></script>
+</body>
+</html>
